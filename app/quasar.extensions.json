@@ -1,0 +1,6 @@
+{
+  "design-system": {},
+  "@quasar/qmarkdown": {
+    "import_md": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "design/**/*",
+      "story",
+      "app"
+    ]
+  },
+  "scripts": {
+    "dev": "yarn workspace app quasar dev",
+    "design:dev": "yarn workspace quasar-ui-design-system dev",
+    "design:build": "yarn workspace quasar-ui-design-system build"
+  }
+}
