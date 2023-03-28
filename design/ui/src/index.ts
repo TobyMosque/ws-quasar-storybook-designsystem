@@ -6,7 +6,7 @@ const version = '__UI_VERSION__'
 
 const install: Plugin['install']  = function (app) {
   const dsState = toRefs(reactive({
-    standout: 'bg-red-8 text-white',
+    standout: 'bg-teal text-white',
     filled: false,
     dense: true
   }))
