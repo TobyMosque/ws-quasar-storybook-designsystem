@@ -19,6 +19,7 @@
                 <img src="https://cdn.quasar.dev/logo-v2/svg/logo.svg">
               </q-avatar>
             </template>
+            <template v-slot:></template>
           </ds-input>
         </q-card-section>
       </q-card>

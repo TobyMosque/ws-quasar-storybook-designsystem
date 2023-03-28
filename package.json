@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "yarn workspace app quasar dev",
     "design:dev": "yarn workspace quasar-ui-design-system dev",
-    "design:build": "yarn workspace quasar-ui-design-system build"
+    "design:build": "yarn workspace quasar-ui-design-system build",
+    "postinstall": "yarn design:build"
   }
 }
